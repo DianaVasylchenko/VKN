@@ -1,6 +1,8 @@
 import math
 import sys 
-a, b, c=float(input()), float(input()), float(input())
+a=int(sys.argv[1])),
+b=int(int(sys.argv[2])),
+c= float(int(sys.argv[3]))
 S=2*(a*b+b*c+a*c)
-V=a*b*C 
-Print("Об'єм:",V,"Площа:",S)
+V=a*b*c 
+print("Об'єм:",V,"Площа:",S)
